@@ -1,0 +1,29 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    min-height: calc(100vh - 70px);
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero__title {
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin: unset;
+}
+
+.hero__paragraph {
+    line-height: 28px;
+    font-size: 1.2rem;
+}
+
+.hero__background-img {
+    width: 100%;
+}
